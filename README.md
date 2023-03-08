@@ -6,38 +6,22 @@
 
 需要安装一个包   pip install openai==0.27.0
 
-## 需要修改得到内容
+## 需要添加的参数说明
 
-里面需要修改一些内容：
-
-第六行、第七行需要修改：
-
-```
-os.environ["HTTP_PROXY"] = "你本地的代理ip:端口"
-os.environ["HTTPS_PROXY"] = "你本地的代理ip:端口"
-
-例如：
-os.environ["HTTP_PROXY"] = "127.0.0.1:7890"
-os.environ["HTTPS_PROXY"] = "127.0.0.1:7890"
-```
-
-第九行需要修改：
-
-```
-openai.api_key = "这里粘贴你的api-key"
-
-例如：
-openai.api_key = "abcd123123"
-```
-
+-a 或者 --api [填入api的接口号码]
+-p 或者 --port [填入本地代理的端口号]
 
 
 ## 使用说明
 
-修改内容完毕后，直接双击打开chatGPT-upload文件沟通即可：
+使用python chatGPT-upload.py即可使用
+
+## 使用举例
+python chatGPT-upload.py -a xxxxxxxxxxx -p 7890
+
 
 
 
 样式举例：
 
-![image-20230308113218733](README.assets/image-20230308113218733.png)
+![image](https://user-images.githubusercontent.com/49487401/223637098-b7153239-8b1a-4684-a1c5-21aed9d8c3fe.png)
