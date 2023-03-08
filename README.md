@@ -16,7 +16,7 @@
 
 使用python chatGPT-upload.py即可使用
 
-## 使用举例
+## 使用举例(建议使用powershell，CMD上个版本有时候会闪退)
 python chatGPT-upload.py -a xxxxxxxxxxx -p 7890
 
 
